@@ -1,7 +1,10 @@
 # Pixel Perfect
 ### Pixel Perfect is a project where you can make a picture using text editor! It's big because of no compression, but it can open instantly!
 
-### Make sure you have installed PYTHON 3.8 or higher
+### Make sure you have installed PYTHON 3.8 or higher + Pillow library
+To check, type following commands to command prompt:  
+python --version - must print 3.8 or higher
+pip install pillow - must print Requirement already satisfied, else wait for it to download.
 
 # How to use:
 The syntax is so easy! You only need to type:  
