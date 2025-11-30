@@ -1,6 +1,7 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox
+from tkinter import filedialog
 from PIL import Image, ImageTk
+
 
 ZOOM_LEVELS = [0.25, 0.5, 1, 2, 3, 4, 5, 6, 7, 8]
 
@@ -9,6 +10,7 @@ class PXPViewer:
         self.root = root
         self.root.title("PXP Opener")
         self.root.geometry("800x600")
+        self.root.iconbitmap("icon.ico")
 
         # Canvas + scrollbars
         self.frame = tk.Frame(root)
