@@ -7,7 +7,7 @@ ZOOM_LEVELS = [0.25, 0.5, 1, 2, 3, 4, 5, 6, 7, 8]
 class PXPViewer:
     def __init__(self, root):
         self.root = root
-        self.root.title("PXP Viewer Beta")
+        self.root.title("PXP Opener")
         self.root.geometry("800x600")
 
         # Canvas + scrollbars
